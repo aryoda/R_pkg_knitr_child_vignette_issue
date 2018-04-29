@@ -21,7 +21,7 @@ and RStudio 1.1.442
 If you use Rmarkdown with a child document for your vignette file you will observer different problems:
 
 
-## `R CMD build" succeeds but the child Rmd file is missing in `inst/doc`
+## `R CMD build` succeeds but the child Rmd file is missing in `inst/doc`
 
 If there is **no existing** `inst/doc` folder in your package
 
