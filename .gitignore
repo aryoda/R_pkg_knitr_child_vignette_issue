@@ -4,4 +4,5 @@
 inst/doc
 /vignettes/*.html
 /vignettes/*.R
-/*.tar.gz
+# In this branch we want to have source package archive files at github!
+# /*.tar.gz
