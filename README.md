@@ -30,7 +30,9 @@ If there is **no existing** `inst/doc` folder in your package
 * but the tar.gz file does **NOT** contain the child Rmd file `child_doc.Rmd` in
   the `inst/doc` folder (only in the `vignettes` folder)
 
-You can verify this after installation of the package via `browseVignettes(package = "vignette.test1")`
+You can verify this after installation of the package
+(e. g. with `install.packages("vignette.test1_1.0.0.9000.tar.gz", repos = NULL, type = "source" )`)
+via `browseVignettes(package = "vignette.test1")`
 
 Impact:
 
