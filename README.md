@@ -132,21 +132,15 @@ Disadantage:
 
 # Current status
 
-* Problem reported at stackoverflow (https://stackoverflow.com/q/50078849/4468078)
+* Problem reported at stackoverflow
+  (https://stackoverflow.com/q/50078849/4468078)
 * Proposed work-around does work (with the described side-effects)
-* No issue opened for `knitr` so far...
+* Issue opened for `knitr` which results in a better workaround
+  (https://github.com/yihui/knitr/issues/1540)
+* A Bugzilla bug entry was opened by Duncan Murdoch
+  (https://bugs.r-project.org/bugzilla3/show_bug.cgi?id=17416)
 
 
-
-# Next steps
-
-1. Open an issue for `knitr`
-
-2. Try with the newest R version
-
-2. If `knitr` cannot solve the problem and the up-to-date R version has not already solved the problems:
-   
-   Ask at r-devel if this could be improved
    
 
 
